@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPro Solutions - จัดสเปกคอม & ซ่อมครบวงจร</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Kanit', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wider text-cyan-400">TECH<span class="text-white">PRO</span></h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#" class="hover:text-cyan-400 transition">หน้าแรก</a></li>
+                <li><a href="#services" class="hover:text-cyan-400 transition">บริการ</a></li>
+                <li><a href="#products" class="hover:text-cyan-400 transition">สินค้า</a></li>
+                <li><a href="#contact" class="hover:text-cyan-400 transition">ติดต่อเรา</a></li>
+            </ul>
+            <button class="bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-2 rounded-full font-semibold transition">
+                จัดสเปกคอม
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero-gradient text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-6">คอมแรงสะใจ <span class="text-cyan-400 text-glow">จัดให้ตามงบ</span></h2>
+            <p class="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
+                รับประกอบคอมพิวเตอร์ Gaming, Workstation และอุปกรณ์ไอทีครบวงจร 
+                มั่นใจได้ด้วยประสบการณ์กว่า 10 ปี พร้อมบริการหลังการขายระดับ VIP
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#products" class="bg-white text-slate-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-200 transition">เลือกซื้อสินค้า</a>
+                <a href="#contact" class="border border-cyan-400 text-cyan-400 px-8 py-3 rounded-lg font-bold hover:bg-cyan-400 hover:text-white transition">ปรึกษาช่างด่วน</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-20 container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">บริการมืออาชีพ</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 card-hover text-center">
+                <div class="text-5xl mb-4">🖥️</div>
+                <h4 class="text-xl font-bold mb-3">Custom Builds</h4>
+                <p class="text-gray-600">จัดสเปกคอมพิวเตอร์ตามการใช้งาน ไม่ว่าจะเป็นสายเกมมิ่งหรือสายตัดต่อ</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 card-hover text-center">
+                <div class="text-5xl mb-4">🛠️</div>
+                <h4 class="text-xl font-bold mb-3">Repair & Upgrade</h4>
+                <p class="text-gray-600">ซ่อมด่วน อัปเกรดความเร็ว SSD/RAM พร้อมทำความสะอาดเครื่อง (Full Service)</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 card-hover text-center">
+                <div class="text-5xl mb-4">🎮</div>
+                <h4 class="text-xl font-bold mb-3">Gaming Gear</h4>
+                <p class="text-gray-600">คัดสรรอุปกรณ์เสริมจากแบรนด์ชั้นนำ เพื่อประสบการณ์การเล่นที่เหนือกว่า</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="bg-gray-100 py-20 px-4">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-12">สินค้าแนะนำ</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400">รูปสินค้า</div>
+                    <div class="p-4">
+                        <p class="text-xs text-cyan-600 font-bold uppercase">GPU</p>
+                        <h5 class="font-bold">NVIDIA RTX 4070 Ti</h5>
+                        <p class="text-red-500 font-bold mt-2">฿2X,XXX</p>
+                        <button class="w-full mt-4 border border-slate-900 py-2 rounded-lg hover:bg-slate-900 hover:text-white transition">รายละเอียด</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-gray-400 py-12 px-4">
+        <div class="container mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <h4 class="text-white text-xl font-bold mb-4">TECHPRO</h4>
+                <p>เปิดให้บริการทุกวัน 10:00 - 20:00 น.<br>ตึกคอม ชั้น 3 โซนไอที</p>
+            </div>
+            <div>
+                <h4 class="text-white text-xl font-bold mb-4">ติดต่อเรา</h4>
+                <p>📞 โทร: 08x-xxx-xxxx</p>
+                <p>💬 Line: @techpro_shop</p>
+                <p>🌐 FB: TechPro Store</p>
+            </div>
+            <div>
+                <h4 class="text-white text-xl font-bold mb-4">ทำไมต้องเรา?</h4>
+                <p>สินค้าแท้ ประกันศูนย์ เคลมไว พร้อมทีมช่างที่คุยภาษาเดียวกับคุณ!</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm">
+            © 2026 TechPro Computer Store. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
+<section id="pc-builder" class="py-20 bg-slate-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            <div class="bg-slate-900 p-6 text-white text-center">
+                <h3 class="text-2xl font-bold">🛠️ จัดสเปกคอมพิวเตอร์ตามงบ</h3>
+                <p class="text-gray-400">เลือกอุปกรณ์ที่ใช่ ในราคาที่ชอบ</p>
+            </div>
+            
+            <div class="p-8 grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">ซีพียู (CPU)</label>
+                        <select id="cpu" class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-cyan-500 outline-none transition" onchange="calculateTotal()">
+                            <option value="0" data-name="ไม่ได้เลือก">-- เลือก CPU --</option>
+                            <option value="5500" data-name="Intel Core i5-13400F">Intel Core i5-13400F (฿5,500)</option>
+                            <option value="11500" data-name="Intel Core i7-13700K">Intel Core i7-13700K (฿11,500)</option>
+                            <option value="4900" data-name="AMD Ryzen 5 7600">AMD Ryzen 5 7600 (฿4,900)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">การ์ดจอ (GPU)</label>
+                        <select id="gpu" class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-cyan-500 outline-none transition" onchange="calculateTotal()">
+                            <option value="0" data-name="ไม่ได้เลือก">-- เลือก GPU --</option>
+                            <option value="10500" data-name="RTX 4060 8GB">NVIDIA RTX 4060 8GB (฿10,500)</option>
+                            <option value="18900" data-name="RTX 4070 12GB">NVIDIA RTX 4070 12GB (฿18,900)</option>
+                            <option value="29500" data-name="RTX 4080 Super">NVIDIA RTX 4080 Super (฿29,500)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">แรม (RAM)</label>
+                        <select id="ram" class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-cyan-500 outline-none transition" onchange="calculateTotal()">
+                            <option value="1800" data-name="16GB DDR4 3200MHz">16GB (8x2) DDR4 (฿1,800)</option>
+                            <option value="3500" data-name="32GB DDR5 5200MHz">32GB (16x2) DDR5 (฿3,500)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-dashed border-gray-300">
+                    <h4 class="font-bold text-lg mb-4 text-slate-800 border-b pb-2">สรุปรายการ</h4>
+                    <ul id="summary-list" class="text-sm space-y-3 text-gray-600">
+                        <li class="flex justify-between"><span>CPU:</span> <span id="sum-cpu">-</span></li>
+                        <li class="flex justify-between"><span>GPU:</span> <span id="sum-gpu">-</span></li>
+                        <li class="flex justify-between"><span>RAM:</span> <span id="sum-ram">-</span></li>
+                    </ul>
+                    
+                    <div class="mt-8 pt-4 border-t border-gray-300">
+                        <div class="flex justify-between items-end">
+                            <span class="text-gray-500">ราคารวมโดยประมาณ:</span>
+                            <span class="text-3xl font-bold text-cyan-600" id="total-price">฿0</span>
+                        </div>
+                    </div>
+
+                    <button class="w-full mt-6 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 rounded-xl shadow-lg transition duration-300 transform active:scale-95">
+                        ปรึกษาการจัดสเปกนี้
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function calculateTotal() {
+        // ดึงค่าจาก select ต่างๆ
+        const cpu = document.getElementById('cpu');
+        const gpu = document.getElementById('gpu');
+        const ram = document.getElementById('ram');
+
+        // คำนวณราคารวม
+        const total = parseInt(cpu.value) + parseInt(gpu.value) + parseInt(ram.value);
+
+        // อัปเดตข้อความสรุปรายการ
+        document.getElementById('sum-cpu').innerText = cpu.options[cpu.selectedIndex].getAttribute('data-name');
+        document.getElementById('sum-gpu').innerText = gpu.options[gpu.selectedIndex].getAttribute('data-name');
+        document.getElementById('sum-ram').innerText = ram.options[ram.selectedIndex].getAttribute('data-name');
+
+        // แสดงราคารวมพร้อมฟอร์แมตตัวเลข (เติมคอมม่า)
+        document.getElementById('total-price').innerText = '฿' + total.toLocaleString();
+    }
+    
+    // เรียกฟังก์ชันครั้งแรกเพื่อให้ค่าเริ่มต้นแสดงผล
+    window.onload = calculateTotal;
+</script>
+<script>
+    function calculateTotal() {
+        const cpu = document.getElementById('cpu');
+        const gpu = document.getElementById('gpu');
+        const ram = document.getElementById('ram');
+
+        const total = parseInt(cpu.value) + parseInt(gpu.value) + parseInt(ram.value);
+
+        // อัปเดตข้อความสรุปรายการ
+        document.getElementById('sum-cpu').innerText = cpu.options[cpu.selectedIndex].getAttribute('data-name');
+        document.getElementById('sum-gpu').innerText = gpu.options[gpu.selectedIndex].getAttribute('data-name');
+        document.getElementById('sum-ram').innerText = ram.options[ram.selectedIndex].getAttribute('data-name');
+
+        document.getElementById('total-price').innerText = '฿' + total.toLocaleString();
+    }
+
+    function sendToLine() {
+        // 1. ดึงข้อมูลที่ลูกค้าเลือก
+        const cpuName = document.getElementById('sum-cpu').innerText;
+        const gpuName = document.getElementById('sum-gpu').innerText;
+        const ramName = document.getElementById('sum-ram').innerText;
+        const totalPrice = document.getElementById('total-price').innerText;
+
+        // 2. ใส่ ID ของ LINE Official Account ของคุณที่นี่ (เช่น @yourshop)
+        const lineId = "@yourshop"; 
+
+        // 3. จัดข้อความที่จะส่ง (ใช้ \n สำหรับขึ้นบรรทัดใหม่)
+        const message = `สนใจสั่งประกอบคอมครับ!\n--------------\n` +
+                        `🖥️ CPU: ${cpuName}\n` +
+                        `🎮 GPU: ${gpuName}\n` +
+                        `🧠 RAM: ${ramName}\n` +
+                        `--------------\n` +
+                        `💰 ราคารวมประมาณ: ${totalPrice}\n` +
+                        `รบกวนเช็กของและประเมินราคาให้หน่อยครับ`;
+
+        // 4. แปลงข้อความเป็นรูปแบบ URL
+        const encodedMessage = encodeURIComponent(message);
+
+        // 5. ลิงก์ไปที่ LINE (เปิดหน้าแชทพร้อมข้อความ)
+        // หมายเหตุ: ใช้ https://line.me/R/oaMessage/ สำหรับส่งเข้า OA โดยตรง
+        window.open(`https://line.me/R/oaMessage/${lineId}/?${encodedMessage}`, '_blank');
+    }
+
+    window.onload = calculateTotal;
+</script>
