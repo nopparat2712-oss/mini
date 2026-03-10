@@ -3,318 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lamai IT Service - บริการติดตั้งกล้องวงจรปิดและซ่อมคอมพิวเตอร์</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Kanit', sans-serif; }
-    </style>
+    <title>Lamai IT Service | Netflix Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50">
+<body>
 
-    <nav class="bg-blue-900 text-white p-4 sticky top-0 z-50 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold tracking-wider">LAMAI <span class="text-yellow-400">IT SERVICE</span></h1>
-            <ul class="hidden md:flex space-x-6">
-                <li><a href="#services" class="hover:text-yellow-400 transition">บริการของเรา</a></li>
-                <li><a href="#about" class="hover:text-yellow-400 transition">เกี่ยวกับเรา</a></li>
-                <li><a href="#contact" class="hover:text-yellow-400 transition">ติดต่อเรา</a></li>
-            </ul>
-        </div>
+    <nav class="navbar">
+        <h1 class="logo">LAMAI IT</h1>
+        <ul>
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">กล้องวงจรปิด</a></li>
+            <li><a href="#">ประกอบคอม</a></li>
+            <li><a href="#">งานซ่อม</a></li>
+        </ul>
     </nav>
 
-    <header class="bg-blue-800 text-white py-20 px-4 text-center">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4">บริการด้านไอที ครบวงจรในที่เดียว</h2>
-        <p class="text-xl mb-8 opacity-90">ติดตั้งกล้องวงจรปิด | ประกอบคอมพิวเตอร์ | ซ่อมและบำรุงรักษา</p>
-        <a href="https://line.me" class="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold text-lg hover:bg-yellow-300 transition shadow-lg">ปรึกษาฟรี/จองคิวบริการ</a>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">รับติดตั้งกล้องวงจรปิด & ประกอบคอม</h1>
+            <p class="hero-description">ดูแลโดยช่างผู้เชี่ยวชาญ บริการถึงที่ ในราคามิตรภาพ พร้อมดูแลหลังการขาย 24 ชม.</p>
+            <div class="hero-buttons">
+                <button class="play-btn"><i class="fas fa-phone"></i> ติดต่อเรา</button>
+                <button class="info-btn"><i class="fas fa-info-circle"></i> รายละเอียด</button>
+            </div>
+        </div>
     </header>
 
-    <section id="services" class="container mx-auto py-16 px-4">
-        <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">บริการของเรา</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600 hover:shadow-xl transition">
-
-                <div class="text-4xl mb-4">📹
-                    <section id="pricing" class="container mx-auto py-16 px-4">
-    <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">แพ็กเกจบริการ</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+    <div class="main-container">
         
-        <div class="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-500">
-            <h4 class="text-2xl font-bold mb-4">บริการซ่อม/ลงโปรแกรม</h4>
-            <p class="text-gray-600 mb-6">เริ่มต้นเพียง</p>
-            <p class="text-4xl font-bold text-blue-600 mb-6">300 บาท</p>
-            <ul class="text-left space-y-2 mb-8">
-                <li>✅ ล้างเครื่อง/ลง Windows ใหม่</li>
-                <li>✅ กำจัดไวรัส</li>
-                <li>✅ ลงโปรแกรมพื้นฐานครบชุด</li>
-            </ul>
-        </div>
+        <h2 class="row-header">บริการยอดนิยม</h2>
+        <div class="row">
+            <div class="card"><img src="https://images.unsplash.com/photo-1557597774-9d2739f85a76?q=80&w=400" alt="CCTV"><span>ติดตั้ง CCTV</span></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=400" alt="PC Build"><span>ประกอบคอมเทพ</span></div>
+            <div class="card"><img src="
 
-        <div class="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-500">
-            <h4 class="text-2xl font-bold mb-4">ติดตั้งกล้องวงจรปิด</h4>
-            <p class="text-gray-600 mb-6">เริ่มต้นจุดละ</p>
-            <p class="text-4xl font-bold text-blue-600 mb-6">XXX บาท</p>
-            <ul class="text-left space-y-2 mb-8">
-                <li>✅ สำรวจหน้างานฟรี</li>
-                <li>✅ เซตระบบดูผ่านมือถือ</li>
-                <li>✅ ประกันงานติดตั้ง X ปี</li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section id="pricing" class="bg-white py-16 px-4">
-        <div class="container mx-auto">
-            <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">ประมาณการค่าบริการ</h3>
-            <div class="overflow-x-auto shadow-xl rounded-lg border border-gray-200">
-                <table class="min-w-full bg-white">
-                    <thead>
-                        <tr class="bg-blue-900 text-white text-left">
-                            <th class="py-4 px-6 font-semibold uppercase text-sm">รายการบริการ</th>
-                            <th class="py-4 px-6 font-semibold uppercase text-sm text-center">ราคาเริ่มต้น</th>
-                            <th class="py-4 px-6 font-semibold uppercase text-sm">หมายเหตุ</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-gray-700">
-                        <tr class="border-b">
-                            <td class="py-4 px-6 font-medium">ติดตั้งกล้องวงจรปิด (ชุด 4 ตัว)</td>
-                            <td class="py-4 px-6 text-center text-blue-700 font-bold">8,xxx.-</td>
-                            <td class="py-4 px-6 text-sm">รวมค่าแรงและเซ็ตดูออนไลน์</td>
-                        </tr>
-                        <tr class="border-b bg-gray-50">
-                            <td class="py-4 px-6 font-medium">ประกอบคอมพิวเตอร์ (ค่าแรง)</td>
-                            <td class="py-4 px-6 text-center text-blue-700 font-bold">500 - 1,xxx.-</td>
-                            <td class="py-4 px-6 text-sm">จัดสเปคฟรีตามงบประมาณ</td>
-                        </tr>
-                        <tr class="border-b">
-                            <td class="py-4 px-6 font-medium">ล้างเครื่อง / ลง Windows ใหม่</td>
-                            <td class="py-4 px-6 text-center text-blue-700 font-bold">300 - 500.-</td>
-                            <td class="py-4 px-6 text-sm">รวมโปรแกรมพื้นฐานและ Driver</td>
-                        </tr>
-                        <tr class="border-b bg-gray-50">
-                            <td class="py-4 px-6 font-medium">ตรวจเช็คอาการเสีย/ซ่อมบอร์ด</td>
-                            <td class="py-4 px-6 text-center text-blue-700 font-bold">300.-</td>
-                            <td class="py-4 px-6 text-sm">ประเมินราคาก่อนซ่อมจริง</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="text-center mt-6 text-gray-500 text-sm">*ราคาอาจเปลี่ยนแปลงตามระยะทางและยี่ห้ออุปกรณ์ กรุณาสอบถามก่อนรับบริการ</p>
-        </div>
-    </section>
-
-    <section class="bg-blue-50 py-16 px-4">
-        <div class="container mx-auto">
-            <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">เสียงตอบรับจากลูกค้า</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                
-                <div class="bg-white p-6 rounded-lg shadow-md italic relative">
-                    <span class="text-5xl text-blue-200 absolute top-2 left-2">“</span>
-                    <p class="relative z-10 text-gray-600 mb-4">"ช่างละไมบริการดีมากครับ ติดตั้งกล้องวงจรปิดที่บ้านงานเนี๊ยบมาก สอนใช้แอปในมือถือจนเป็น แนะนำเลย!"</p>
-                    <div class="font-bold text-blue-900">- คุณสมเกียรติ (เจ้าของหอพัก)</div>
-                </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-md italic relative border-2 border-yellow-400">
-                    <span class="text-5xl text-blue-200 absolute top-2 left-2">“</span>
-                    <p class="relative z-10 text-gray-600 mb-4">"มาประกอบคอมเล่นเกมที่นี่ ช่างแนะนำดีมาก ไม่ยัดเยียดของแพง ได้เครื่องแรงในงบที่ตั้งไว้ ประทับใจค่ะ"</p>
-                    <div class="font-bold text-blue-900">- น้องแนท (สายเกมเมอร์)</div>
-                </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-md italic relative">
-                    <span class="text-5xl text-blue-200 absolute top-2 left-2">“</span>
-                    <p class="relative z-10 text-gray-600 mb-4">"คอมพิวเตอร์เสียเปิดไม่ติด เอามาซ่อมเช้า บ่ายเสร็จเลย ราคาเป็นกันเอง คุยง่าย มืออาชีพสุดๆ"</p>
-                    <div class="font-bold text-blue-900">- พี่วิชัย (ร้านขายของชำ)</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section id="reviews" class="bg-blue-50 py-16 px-4">
-    <div class="container mx-auto text-center">
-        <h3 class="text-3xl font-bold mb-12 text-gray-800">สิ่งที่ลูกค้าพูดถึงเรา</h3>
-        <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md italic">
-            <p class="text-gray-700 text-lg mb-4">"งานไวมากครับ ให้คำแนะนำดี เข้าใจง่าย ติดตั้งกล้องเสร็จก็ช่วยสอนวิธีดูผ่านมือถือจนคล่องเลย แนะนำร้านนี้ครับ!"</p>
-            <p class="font-bold text-blue-800">- คุณสมชาย, เกาะสมุย</p>
-        </div>
-    </div>
-</section>
-<section id="reviews" class="bg-blue-50 py-16 px-4">
-    <div class="container mx-auto text-center">
-        <h3 class="text-3xl font-bold mb-12 text-gray-800">สิ่งที่ลูกค้าพูดถึงเรา</h3>
-        <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md italic">
-            <p class="text-gray-700 text-lg mb-4">"งานไวมากครับ ให้คำแนะนำดี เข้าใจง่าย ติดตั้งกล้องเสร็จก็ช่วยสอนวิธีดูผ่านมือถือจนคล่องเลย แนะนำร้านนี้ครับ!"</p>
-            <p class="font-bold text-blue-800">- คุณสมชาย, เกาะสมุย</p>
-        </div>
-    </div>
-</section>
-<section id="about" class="py-20 px-4 bg-white">
-        <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
-            
-            <div class="w-full md:w-1/2">
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e92c73e?auto=format&fit=crop&q=80&w=800" 
-                         alt="ช่างไอทีทำงาน" 
-                         class="rounded-2xl shadow-2xl z-10 relative">
-                    <div class="absolute -bottom-6 -right-6 w-full h-full border-4 border-yellow-400 rounded-2xl -z-0 hidden md:block"></div>
-                </div>
-            </div>
-
-            <div class="w-full md:w-1/2">
-                <h3 class="text-blue-900 font-bold text-lg mb-2 uppercase tracking-widest">รู้จักกับเรา</h3>
-                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Lamai IT Service <br><span class="text-blue-600 text-2xl">ดูแลด้วยใจ ใส่ใจทุกรายละเอียด</span></h2>
-                
-                <p class="text-gray-600 mb-6 leading-relaxed text-lg">
-                    เราคือทีมช่างไอทีรุ่นใหม่ที่มีประสบการณ์ตรงกว่า 10 ปี เริ่มต้นจากความหลงใหลในเทคโนโลยีและการซ่อมบำรุง จนกลายมาเป็น **Lamai IT Service** ที่เน้นการให้บริการแบบ "เพื่อนช่วยเพื่อน" แต่
-                    <!DOCTYPE html>
-<html lang="th" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lamai IT Service | กล้องวงจรปิด & คอมพิวเตอร์</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Kanit', sans-serif; }
-        .service-card:hover { transform: translateY(-10px); }
-    </style>
-</head>
-<body class="bg-slate-50 text-gray-800">
-
-    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-900 leading-tight">
-                LAMAI <span class="text-blue-500 underline decoration-yellow-400 decoration-4">IT SERVICE</span>
-            </div>
-            <ul class="hidden md:flex space-x-8 font-medium">
-                <li><a href="#about" class="hover:text-blue-600 transition">เกี่ยวกับเรา</a></li>
-                <li><a href="#services" class="hover:text-blue-600 transition">บริการ</a></li>
-                <li><a href="#pricing" class="hover:text-blue-600 transition">ราคา</a></li>
-                <li><a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">ติดต่อช่าง</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <header class="relative bg-blue-900 py-24 px-6 overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
-        <div class="container mx-auto text-center relative z-10">
-            <span class="bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-4 inline-block">Professional IT Solutions</span>
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">ดูแลระบบความปลอดภัย <br>และคอมพิวเตอร์ของคุณ</h1>
-            <p class="text-blue-100 text-lg md:text-xl mb-10 max-w-2xl mx-auto">ติดตั้งกล้องวงจรปิด สเปคคอมพิวเตอร์ระดับเทพ และงานซ่อมบำรุง โดยช่างผู้เชี่ยวชาญในละไม</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4 text-lg">
-                <a href="#services" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg">ดูบริการทั้งหมด</a>
-                <a href="tel:09xxxxxxx" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-500 transition shadow-lg border border-blue-400">โทรเลยตอนนี้</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="about" class="py-20 bg-white">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
-            <div class="md:w-1/2 relative">
-                <img src="https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=800" alt="Work" class="rounded-2xl shadow-2xl">
-                <div class="absolute -bottom-6 -right-6 bg-yellow-400 p-6 rounded-2xl hidden md:block">
-                    <p class="text-3xl font-bold text-blue-900">10+</p>
-                    <p class="text-sm font-semibold">ปีประสบการณ์</p>
-                </div>
-            </div>
-            <div class="md:w-1/2">
-                <h2 class="text-3xl font-bold mb-6 text-blue-900">ทำไมต้องเลือก Lamai IT Service?</h2>
-                <p class="text-gray-600 text-lg mb-6">เราเข้าใจว่างานระบบไอทีคือหัวใจสำคัญของบ้านและธุรกิจของคุณ เราจึงเน้นการทำงานที่ "จบไว งานเนี้ยบ และราคาเป็นธรรม"</p>
-                <div class="space-y-4">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-blue-100 text-blue-600 p-2 rounded-lg">✓</div>
-                        <div>
-                            <h4 class="font-bold">ช่างตัวจริง</h4>
-                            <p class="text-sm text-gray-500">ผ่านการรับรองและมีประสบการณ์ตรงหน้างานจริง</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="bg-blue-100 text-blue-600 p-2 rounded-lg">✓</div>
-                        <div>
-                            <h4 class="font-bold">รับประกันงานติดตั้ง</h4>
-                            <p class="text-sm text-gray-500">ดูแลหลังการขาย ไม่ทิ้งงาน พร้อมช่วยเหลือเมื่อมีปัญหา</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20 bg-slate-50">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-900 mb-4">บริการระดับมืออาชีพ</h2>
-                <div class="h-1 w-20 bg-blue-600 mx-auto"></div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div class="service-card bg-white p-10 rounded-2xl shadow-sm transition duration-300">
-                    <div class="text-4xl mb-6">📹</div>
-                    <h3 class="text-xl font-bold mb-4">ติดตั้ง CCTV</h3>
-                    <p class="text-gray-500">ระบบกล้องความคมชัดสูง ดูผ่านมือถือได้ 24 ชม. พร้อมระบบแจ้งเตือนอัจฉริยะ</p>
-                </div>
-                <div class="service-card bg-white p-10 rounded-2xl shadow-sm transition duration-300">
-                    <div class="text-4xl mb-6">🖥️</div>
-                    <h3 class="text-xl font-bold mb-4">จัดสเปค & ประกอบคอม</h3>
-                    <p class="text-gray-500">คอมเล่นเกม คอมทำงาน หรือ Workstation เราจัดให้ตามงบ คุ้มค่าที่สุด</p>
-                </div>
-                <div class="service-card bg-white p-10 rounded-2xl shadow-sm transition duration-300">
-                    <div class="text-4xl mb-6">🛠️</div>
-                    <h3 class="text-xl font-bold mb-4">ซ่อม & แก้ปัญหา IT</h3>
-                    <p class="text-gray-500">ล้างเครื่อง ลง Windows แก้ไข Network และกู้ข้อมูล มั่นใจข้อมูลไม่หลุดไหล</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="py-20 bg-white">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <h2 class="text-3xl font-bold text-center mb-12">ประมาณการค่าบริการ</h2>
-            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden text-lg">
-                <div class="grid grid-cols-2 p-6 bg-blue-50 border-b font-bold text-blue-900 text-sm md:text-lg uppercase tracking-wider">
-                    <div>รายการ</div>
-                    <div class="text-right">ราคาเริ่มต้น</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 border-b hover:bg-gray-50 transition">
-                    <div>เซ็ตกล้อง 4 ตัว (ครบชุด)</div>
-                    <div class="text-right font-bold text-blue-600">8,900.-</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 border-b hover:bg-gray-50 transition">
-                    <div>ประกอบคอม (ค่าแรง)</div>
-                    <div class="text-right font-bold text-blue-600">500.-</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 border-b hover:bg-gray-50 transition">
-                    <div>ลง Windows / โปรแกรม</div>
-                    <div class="text-right font-bold text-blue-600">300.-</div>
-                </div>
-                <div class="grid grid-cols-2 p-6 hover:bg-gray-50 transition">
-                    <div>เช็คอาการ/ซ่อมนอกสถานที่</div>
-                    <div class="text-right font-bold text-blue-600">เริ่มต้น 300.-</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 bg-blue-900 text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-16">เสียงตอบรับจากลูกค้าจริง</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-sm text-left">
-                    <p class="text-lg italic mb-6">"เรียกช่างมาติดกล้องที่ร้าน งานเรียบร้อยมาก เก็บสายเนี๊ยบ ราคากันเองครับ"</p>
-                    <div class="font-bold">- คุณเอ็ม (เจ้าของร้านกาแฟ)</div>
-                </div>
-                <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-sm text-left border-l-4 border-yellow-400">
-                    <p class="text-lg italic mb-6">"คอมช้ามากเอามาล้างเครื่องที่นี่ กลับมาลื่นเหมือนใหม่ ช่างอธิบายเข้าใจง่ายดี"</p>
-                    <div class="font-bold">- คุณฟ้า (พนักงานออฟฟิศ)</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-4">พร้อมใช้บริการหรือยัง?</h2>
-            <p class="text-gray-500 mb-10">ติดต่อสอบถามข้อมูลเพิ่มเติม หรือนัดคิวช่างได้ที่</p>
-            <div class="flex flex-wrap justify-center gap-10">
-                <div class="flex flex-col items-center">
-                    <div class="bg-green-100
 
 
